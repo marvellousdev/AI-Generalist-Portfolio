@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="theme-color" content="#0b1121"/>
+  <meta name="description" content="Independent AI generalist portfolio by Afe Marvellous: AI response evaluation, reasoning, fact-checking, instruction following, and quality assessment."/>
+  <title>Afe Marvellous | AI Evaluation Portfolio</title>
+  <link rel="stylesheet" href="./style.css"/>
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="topline"></div>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Home">
+        <span class="brand-icon">AM<span class="brand-star">✳</span></span>
+        <span class="brand-label">Afe Marvellous<span>AI / EVALUATION PORTFOLIO</span></span>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="#work">Work samples</a>
+        <a href="#method">Method</a>
+        <a href="#lab">Evaluation lab</a>
+      </nav>
+      <a class="nav-cta" href="#lab">Explore the demo <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="signal"></span> INDEPENDENT WORK-SAMPLE PORTFOLIO</div>
+          <h1 id="hero-title">Good AI answers need <em>good judgment.</em></h1>
+          <p class="hero-lede">I evaluate AI-generated content for factual correctness, reasoning quality, instruction-following and clarity—then explain what should improve and why.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#work">View evaluated examples <span aria-hidden="true">↗</span></a>
+            <a class="button secondary" href="#lab">Try the scoring demo</a>
+          </div>
+          <div class="hero-fine">Afe Marvellous Ifedolapo <span>•</span> Research · Reasoning · AI quality assessment</div>
+        </div>
+        <div class="hero-panel" aria-label="Example evaluation scorecard">
+          <div class="panel-top"><span class="panel-dot"></span><span>EVALUATION SNAPSHOT</span><span class="panel-id">CASE 001</span></div>
+          <div class="mini-label">PROMPT QUALITY REVIEW</div>
+          <div class="panel-title">Which response is more accurate?</div>
+          <div class="compare-row"><span>Response A</span><div class="bar-track"><div class="bar-fill fill-a"></div></div><strong>5.0</strong></div>
+          <div class="compare-row"><span>Response B</span><div class="bar-track"><div class="bar-fill fill-b"></div></div><strong>3.0</strong></div>
+          <div class="panel-conclusion"><span class="check-symbol">✓</span><div><strong>Response A preferred</strong><small>Correct arithmetic with an explicit supporting calculation.</small></div></div>
+          <div class="panel-foot"><span>ACCURACY</span><span>REASONING</span><span>INSTRUCTION FIT</span></div>
+        </div>
+      </section>
+
+      <section class="metrics" aria-label="Portfolio overview">
+        <div><strong>03</strong><span>Annotated work samples</span></div>
+        <div><strong>04</strong><span>Evaluation dimensions</span></div>
+        <div><strong>01</strong><span>Interactive scoring lab</span></div>
+        <div><strong>100%</strong><span>Transparent sample methodology</span></div>
+      </section>
+
+      <section class="section" id="work" aria-labelledby="work-title">
+        <div class="section-head">
+          <div><div class="kicker">01 / SELECTED WORK</div><h2 id="work-title">Evaluated response examples</h2><p>Three clearly labeled practice cases show how I identify errors, compare alternatives and explain decisions.</p></div>
+          <div class="section-side">SYNTHETIC EXAMPLES · HUMAN REVIEW</div>
+        </div>
+        <div class="case-picker" role="group" aria-label="Choose a work sample">
+          <button class="case-tab active" data-case="0" aria-pressed="true"><span>01</span> Numerical accuracy</button>
+          <button class="case-tab" data-case="1" aria-pressed="false"><span>02</span> Instruction following</button>
+          <button class="case-tab" data-case="2" aria-pressed="false"><span>03</span> Summary fidelity</button>
+        </div>
+        <article class="case-detail" aria-live="polite">
+          <div class="case-overline"><span id="case-category">MATHEMATICAL REASONING</span><span id="case-status">EVALUATION COMPLETE</span></div>
+          <h3 id="case-heading">Check a straightforward percentage calculation</h3>
+          <div class="prompt-box"><span class="tiny-heading">ORIGINAL USER PROMPT</span><p id="case-prompt"></p></div>
+          <div class="answer-grid">
+            <div class="answer-box preferred"><div class="answer-header"><strong>Response A</strong><span class="tag good" id="tag-a">Preferred</span></div><p id="case-a"></p><div class="answer-score">Overall rubric score <strong id="score-a">5.0 / 5</strong></div></div>
+            <div class="answer-box"><div class="answer-header"><strong>Response B</strong><span class="tag" id="tag-b">Needs correction</span></div><p id="case-b"></p><div class="answer-score">Overall rubric score <strong id="score-b">3.0 / 5</strong></div></div>
+          </div>
+          <div class="review-note"><div class="review-mark">✳</div><div><strong>Evaluator rationale</strong><p id="case-rationale"></p><p class="correction"><strong>Suggested correction:</strong> <span id="case-correction"></span></p></div></div>
+        </article>
+      </section>
+
+      <section class="section method-section" id="method" aria-labelledby="method-title">
+        <div class="section-head"><div><div class="kicker">02 / METHODOLOGY</div><h2 id="method-title">A repeatable evaluation rubric</h2><p>I use the same dimensions across response reviews, with a transparent 1–5 scoring scale.</p></div></div>
+        <div class="rubric-grid">
+          <div class="rubric"><span class="rubric-num">01</span><div class="rubric-icon">◎</div><h3>Accuracy</h3><p>Are statements and calculations correct based on available evidence?</p></div>
+          <div class="rubric"><span class="rubric-num">02</span><div class="rubric-icon">◇</div><h3>Instruction fit</h3><p>Does the answer respect the user’s requested format and constraints?</p></div>
+          <div class="rubric"><span class="rubric-num">03</span><div class="rubric-icon">↗</div><h3>Reasoning</h3><p>Is the conclusion supported by valid, consistent logic?</p></div>
+          <div class="rubric"><span class="rubric-num">04</span><div class="rubric-icon">☰</div><h3>Clarity</h3><p>Can a reader understand the answer without unnecessary confusion?</p></div>
+        </div>
+        <p class="scale-note"><strong>Scoring guide:</strong> 1 = poor, 2 = weak, 3 = acceptable with issues, 4 = good, 5 = excellent. Scores are qualitative human judgments—not model-generated truth claims.</p>
+      </section>
+
+      <section class="section lab-section" id="lab" aria-labelledby="lab-title">
+        <div class="section-head"><div><div class="kicker">03 / PRACTICAL DEMONSTRATION</div><h2 id="lab-title">AI response comparison lab</h2><p>Paste a prompt and two responses, assign human scores, and export a structured evaluation. Everything runs in your browser.</p></div><span class="lab-tag">LOCAL-ONLY DEMO</span></div>
+        <form id="evaluation-form">
+          <div class="input-block"><label for="prompt-input">User prompt</label><textarea id="prompt-input" rows="2" placeholder="Enter the instruction given to the AI..." required></textarea></div>
+          <div class="input-grid">
+            <div class="input-block"><label for="response-a-input">Response A</label><textarea id="response-a-input" rows="5" placeholder="Paste the first AI response..." required></textarea></div>
+            <div class="input-block"><label for="response-b-input">Response B</label><textarea id="response-b-input" rows="5" placeholder="Paste the second AI response..." required></textarea></div>
+          </div>
+          <div class="score-controls">
+            <div class="score-controls-title"><strong>Human scoring</strong><span>1 (poor) — 5 (excellent)</span></div>
+            <div class="score-head"><span>CRITERION</span><span>RESPONSE A</span><span>RESPONSE B</span></div>
+            <div class="score-line"><label>Accuracy</label><select data-response="a" data-dimension="accuracy" aria-label="Response A accuracy"></select><select data-response="b" data-dimension="accuracy" aria-label="Response B accuracy"></select></div>
+            <div class="score-line"><label>Instruction fit</label><select data-response="a" data-dimension="instruction" aria-label="Response A instruction fit"></select><select data-response="b" data-dimension="instruction" aria-label="Response B instruction fit"></select></div>
+            <div class="score-line"><label>Reasoning</label><select data-response="a" data-dimension="reasoning" aria-label="Response A reasoning"></select><select data-response="b" data-dimension="reasoning" aria-label="Response B reasoning"></select></div>
+            <div class="score-line"><label>Clarity</label><select data-response="a" data-dimension="clarity" aria-label="Response A clarity"></select><select data-response="b" data-dimension="clarity" aria-label="Response B clarity"></select></div>
+          </div>
+          <div class="input-block"><label for="notes-input">Evaluator rationale / evidence</label><textarea id="notes-input" rows="3" placeholder="Explain what each response gets right or wrong, citing specific details..." required></textarea></div>
+          <div class="form-actions"><button class="button primary" type="submit">Compare responses <span aria-hidden="true">↗</span></button><button class="button tertiary" type="button" id="load-example">Load sample case</button></div>
+        </form>
+        <div id="evaluation-result" class="result-panel" aria-live="polite" hidden>
+          <div><span class="tiny-heading">EVALUATION RESULT</span><h3 id="result-winner">Response A preferred</h3><p id="result-explanation"></p></div>
+          <div class="result-numbers"><span id="result-a">A 4.0/5</span><span id="result-b">B 3.0/5</span></div>
+          <button class="button secondary download" type="button" id="export-csv">Export assessment (CSV) ↓</button>
+        </div>
+        <p class="lab-disclaimer">This is a human-rating interface, not an automated factuality detector. It does not call an AI API, verify external sources, or upload entered content. Do not paste confidential material into a publicly viewed device.</p>
+      </section>
+
+      <section class="closing">
+        <span class="kicker">04 / ABOUT THIS PORTFOLIO</span>
+        <h2>Careful evaluation. Clear explanations. Better outcomes.</h2>
+        <p>I am building evidence of my capabilities in AI content evaluation and generalist reasoning through reproducible, independently designed work samples. My broader interests include software development, research and real-world problem-solving.</p>
+        <a class="button light" href="#work">Review work samples <span aria-hidden="true">↗</span></a>
+      </section>
+    </main>
+    <footer><span><strong>Afe Marvellous Ifedolapo</strong> / AI Generalist Work Samples</span><span>Independent demonstration • Not affiliated with Mercor or an AI model provider</span></footer>
+  </div>
+</body>
+</html>
