@@ -29,10 +29,5 @@ Replace YOUR_USERNAME with the account that owns the repository. The address doe
 **Title:** AI Response Evaluation & Quality Assessment — Independent Portfolio
 **Description:** Designed and implemented a browser-based evaluation portfolio with three annotated practice cases and a human-scored comparison interface. Applied a transparent rubric covering factual accuracy, instruction-following, reasoning and clarity; included explainable evaluation rationales and CSV export for review records.
 
-## Responsible representation
-- Add this to Mercor only once the link works, and label the samples as independent practice.
-- Do not claim you've been employed by Mercor or worked on proprietary AI evaluation tasks.
-- The demonstration does not call AI models or automatically check factual claims. The reviewer must supply ratings and evidence.
-- Review personal information in `index.html` before publishing. All repository files and the website are public.
 
 Built as a zero-dependency static webpage.
